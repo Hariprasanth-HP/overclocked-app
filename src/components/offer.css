@@ -1,0 +1,26 @@
+.offer_app {
+  text-align: center;
+}
+.offer_cont {
+  display: flex !important;
+  gap: 10px;
+  padding: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: lavender;
+}
+@media screen and (max-width: 700px) {
+  .offer_cont {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 25px;
+    background: lavender;
+  }
+  .offer_card {
+    width: 277px !important;
+  }
+}
